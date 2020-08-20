@@ -1,0 +1,23 @@
+{
+  "name": "@skyux-sdk/istanbul-instrumenter-loader",
+  "description": "Istanbul instrumenter loader for webpack",
+  "repository": {},
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src --out-dir dist --copy-files"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "istanbul-lib-instrument": "4.0.3",
+    "loader-utils": "2.0.0",
+    "schema-utils": "2.7.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.10.5",
+    "@babel/core": "7.11.4",
+    "@babel/preset-env": "7.11.0"
+  }
+}
