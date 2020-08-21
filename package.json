@@ -1,6 +1,6 @@
 {
   "name": "@skyux-sdk/istanbul-instrumenter-loader",
-  "version": "0.0.1",
+  "version": "4.0.0-alpha.0",
   "description": "Istanbul instrumenter loader for webpack",
   "repository": {},
   "license": "MIT",
