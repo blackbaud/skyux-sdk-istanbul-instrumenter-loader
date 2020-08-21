@@ -26,6 +26,7 @@ export default function (source: string, sourceMap: any) {
   // Use inline source map, if none provided.
   if (!srcMap) {
     const inlineSourceMap = convert.fromSource(source);
+    /* istanbul ignore else */
     if (inlineSourceMap) {
       srcMap = inlineSourceMap.sourcemap;
     }

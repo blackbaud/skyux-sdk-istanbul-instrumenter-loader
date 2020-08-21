@@ -10,5 +10,10 @@
   "include": [
     "src/*.json",
     "src/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "fixtures",
+    "src/*.spec.ts"
   ]
 }

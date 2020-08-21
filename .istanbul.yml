@@ -1,0 +1,8 @@
+instrumentation:
+  root: ./dist
+  excludes: ['**/*.spec.js', '**/fixtures/*.js']
+reporting:
+  print: none
+  reports:
+    - json
+  dir: ./coverage
